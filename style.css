@@ -1,0 +1,55 @@
+.content {
+  width: 100%;
+  min-height: 306px;
+  background: url(../img/main_bg.jpg);
+  background-position: 50% 30%;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.content .timer {  
+  text-align: center;
+}
+.content .timer-title {
+  font-size: 36px;
+  color: #c78030;
+}
+.content .timer-action {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+}
+.content .timer-numbers {
+  margin-top: 40px;
+  font-size: 90px;
+  color: #c78030;
+}
+.content .timer-numbers:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 1px;
+  background-color: #c78030;
+  margin: 0 auto;
+  margin-top: 4px;
+}
+
+.content .counter input[type=number] {
+  -moz-appearance: textfield;
+}
+.content .more {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 250px;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid #c78030;
+  font-size: 18px;
+  color: #c78030;
+  cursor: pointer;
+}
+.content .more:hover {
+  box-shadow: 0 0 10px #c78030;
+}
